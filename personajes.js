@@ -24,8 +24,6 @@ function pers(characters) {
     character$$.appendChild(names$$);
     character$$.appendChild(image$$);
     book$$.appendChild(character$$);
-   
-
 }
 }
 
@@ -34,12 +32,6 @@ fetch(
 )
   .then((response) => response.json())
   .then((characters) => pers(characters));
-
-
-
- 
-
-
 //BUSCAR PERSONAJES//
 
 const buscar = (event) => {

@@ -45,12 +45,4 @@ const pintarCard = (data) => {
         }
 }
 
-
-
-
-
-
-
-
-
 export { getRandomInt, fetchdata ,pintarCard, getRandom };
