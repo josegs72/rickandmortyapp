@@ -1,0 +1,264 @@
+
+body {
+    background-image: url("wp3277763.jpg");
+      }
+h1 {
+  text-align: center;
+}
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.character {
+  margin: 60px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 12px 5px #ac1e1e;
+  box-shadow: 5px 5px 12px 5px #a3de0c;
+  border-radius: 40px 40px 0px 0px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 40px 40px;
+}
+.name {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0px;
+  
+  background-color: rgb(56, 196, 98);
+  text-align: center;
+  font-family: Comic Sans MS;
+  
+  padding: 20px;
+  padding-bottom: 25px;
+
+}
+
+.species {
+  text-align: center;
+  padding: 10px;
+  font-family: Comic Sans MS;
+
+  height: 10%;
+}
+p {
+  background-color: rgb(56, 196, 98);
+  margin: 0px;
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+form.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+  
+}
+
+img.logo {
+  border-radius: 30px 30px 30px 30px;
+} 
+h3.name1 {
+  border-radius: 40px 40px 0px 0px;
+  margin: 0px;
+  background-color:  rgb(245, 57, 47);
+  text-align: center;
+  padding: 10px;
+  font-family: Comic Sans MS;
+  border : 1px solid black;
+}
+p.species1{
+  text-align: center;
+  height: 10%;
+  background-color: rgb(56, 196, 98);
+  margin: 0px;
+ font-family: Comic Sans MS;
+ 
+  
+}
+p.status1{
+  text-align: center;
+  height: 10%;
+  background-color:  rgb(56, 196, 98);
+  margin: 0px;
+ font-family: Comic Sans MS;
+ padding-bottom: 7px;
+  
+}
+input[type="button"] {
+ 
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: helvetica;
+  font-weight: 300px;
+  font-size: 25px;
+  font-style: italic;
+  
+  background-color: rgb(95, 194, 113);
+  color: hwb(339 5% 13%);
+  border-radius: 50%;
+  border: 3px double #0a0f0a;
+  margin-left: 20px;
+  }
+input[type="button"]:hover {
+ 
+  color: rgb(90, 236, 116);
+  background-color: hwb(339 5% 13%);
+  border: 3px double #82b085;
+}
+button[type="submit"]{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color: #006505;
+  background-color: #62af68;
+  border-radius: 15px;
+  border: 3px double #0a0f0a;
+}
+button[type="submit"]:hover {
+  color: #62af68;
+  background-color: #006505;
+  border: 3px double #82b085;
+}
+
+input[type="text"]{
+  padding: 10px;
+  border-radius: 30px;
+  font-family: helvetica;
+  font-size: 16px;
+  font-style: italic;
+  }
+
+  div.book1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+    padding: 0px;
+  }
+  div.character1 {
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 12px 5px #ac1e1e;
+    box-shadow: 5px 5px 12px 5px #a3de0c;
+    border-radius: 40px 40px 0px 0px;
+  }
+  h3.name2 {
+    width: 280px;
+    height: 100px;
+    border-radius: 40px 40px 0px 0px;
+    margin: 0px;
+    background-color:  rgb(245, 57, 47);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Comic Sans MS;
+    border : 1px solid black;
+    
+  }
+  
+  p.species2{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(56, 196, 98);
+    margin: 0px;
+   font-family: Comic Sans MS;
+   font-size: 30px;
+   width: 301px;
+   }
+  
+   img.image2{
+    
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 40px 40px;
+   }
+  
+   p.status2{
+    text-align: center;
+    height: 20%;
+    width: 301px;
+    font-size: 30px;
+    background-color:  rgb(56, 196, 98);
+    margin: 0px;
+   }
+   p.gender2{
+    text-align: center;
+    height: 20%;
+    width: 301px;
+    font-size: 30px;
+    background-color:  rgb(56, 196, 98);
+    margin: 0px;
+   }
+
+   div.random{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+   }
+   button  {
+   
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #a0fb29;
+    background-color: #ee2c2c;
+    border-radius: 15px;
+    border: 3px double #0a0f0a;
+   }
+    button:hover {
+      color: #ee2c2c;
+      background-color: #14934f;
+      border: 3px double #82b085;
+    }
+  div.card1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+
+  
+   
+  
